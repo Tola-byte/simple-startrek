@@ -1,0 +1,25 @@
+.parent{
+    display: flex;
+    margin-bottom: 50px;
+    width: 90%;
+    border: 2px thin black;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    width: 50px;
+    height: 70px;
+    outline: none;
+    border: 2px thin black;
+    cursor: pointer;
+}
+.nav:hover{
+    background-color: black;
+    color: white;
+}
+.active{
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 70px;
+}

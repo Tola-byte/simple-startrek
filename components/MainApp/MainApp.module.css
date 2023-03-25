@@ -1,0 +1,63 @@
+.heading{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.search{
+    display: flex;
+    justify-content: center;
+}
+.button_search{
+    width: 90px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    background-color: black;
+    color: white;
+    margin-left: -70px; 
+}
+.pagination{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.input{
+    padding: 10px;
+    width: 60%;
+    height: 40px;
+    outline: none;
+}
+.contents{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.card{
+    width: 250px;
+    height: 350px;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card:hover{
+    background-color: black;
+    color: white;
+}
+.texts{
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    align-content: center;
+    margin-top: 15%;
+    flex-direction: column;
+}
+.details{
+    display: flex;
+    padding: 12px;
+}
